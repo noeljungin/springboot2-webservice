@@ -31,7 +31,7 @@ deploy:
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-    bucket: freelec-springboot-build
+    bucket: noel-springboot-build
     key: freelec-springboot2-webservice.zip
     bundle_type: zip
     application: freelec-springboot2-webservice
